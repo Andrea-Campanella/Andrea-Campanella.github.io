@@ -33,3 +33,7 @@ function setLanguage(content) {
     document.getElementById("honeymoon-content").textContent = content.honeymoonContent;
 }
 
+// Default to Italian on page load
+window.onload = () => {
+    setLanguage(itContent);
+};
