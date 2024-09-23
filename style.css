@@ -1,0 +1,88 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #e8e8e8;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #b08090;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Language switch buttons */
+.language-switch {
+    margin-top: 10px;
+}
+
+.language-switch button {
+    background-color: #d8bfd8;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.language-switch button:hover {
+    background-color: #c4a2c4;
+}
+
+/* Section styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #a68d8d;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #e8e8e8;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
